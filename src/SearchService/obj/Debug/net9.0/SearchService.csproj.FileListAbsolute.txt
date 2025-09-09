@@ -61,3 +61,9 @@ C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\Microsoft.
 C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\Polly.dll
 C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\Polly.Extensions.Http.dll
+C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\MassTransit.dll
+C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\MassTransit.Abstractions.dll
+C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\RabbitMQ.Client.dll
+C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\Contracts.dll
+C:\Users\Utilizator\repos\Carsties\src\SearchService\bin\Debug\net9.0\Contracts.pdb
