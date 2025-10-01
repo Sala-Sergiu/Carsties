@@ -3,13 +3,14 @@ WORKDIR /app
 
 COPY Carsties.sln ./
 COPY src/AuctionService/AuctionService.csproj ./src/AuctionService/
+COPY src/BiddingService/BiddingService.csproj ./src/BiddingService/BiddingService.csproj
 COPY src/Contracts/Contracts.csproj ./src/Contracts/
 
 RUN dotnet restore ./src/AuctionService/AuctionService.csproj
 
 COPY . .
 RUN dotnet publish ./src/AuctionService/AuctionService.csproj -c Release -o /app/publish
-a
+
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 EXPOSE 80

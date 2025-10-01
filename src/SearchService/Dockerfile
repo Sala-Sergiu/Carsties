@@ -2,8 +2,10 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /app
 
 COPY Carsties.sln ./
-COPY src/SearchService/SearchService.csproj ./src/SearchService/
+COPY src/AuctionService/AuctionService.csproj ./src/AuctionService/
+COPY src/BiddingService/BiddingService.csproj ./src/BiddingService/
 COPY src/Contracts/Contracts.csproj ./src/Contracts/
+COPY src/SearchService/SearchService.csproj ./src/SearchService/
 
 RUN dotnet restore ./src/SearchService/SearchService.csproj
 

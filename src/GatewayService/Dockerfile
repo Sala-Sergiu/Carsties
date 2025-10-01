@@ -2,7 +2,10 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /app
 
 COPY Carsties.sln ./
-COPY src/GatewayService/GatewayService.csproj ./src/GatewayService/
+COPY src/AuctionService/AuctionService.csproj ./src/AuctionService/
+COPY src/BiddingService/BiddingService.csproj ./src/BiddingService/BiddingService.csproj
+COPY src/Contracts/Contracts.csproj ./src/Contracts/
+COPY src/GatewayService/GatewayService.csproj ./src/GatewayService/ 
 
 RUN dotnet restore ./src/GatewayService/GatewayService.csproj
 
